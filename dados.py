@@ -3,7 +3,7 @@ import pandas as pd
 
 def carregar_dados():
     # Caminho completo para o arquivo do banco de dados
-    conn = sqlite3.connect('C:/Users/camil/vendas_dw.db')
+    conn = sqlite3.connect('seucaminhoaqui')
 
     # Extrair dados da tabela Fato_Vendas e dimensões relevantes
     query = """
